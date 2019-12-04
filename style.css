@@ -1,88 +1,87 @@
-.fright {
-    float: right;
-    padding-left: 1%;
-    padding-right: 1%;
+/* top navbar styling */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* left nav div */
+#navleft {
+    display: flex;
+
+}
+/* individual left nav links */
+.fleft {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.fleft {
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
+#navright {
+    display: flex;
+}
+
+.fright {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Image styling */
+.container-1 {
+    /* apply justify contents-align items on parent element here  */
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    margin: 0 auto;
+    
+}
+
+/* input styling */
+.input {
+    display: flex;
+    justify-content: center;
 }
 
 #inputbox {
-    display: block;
-    margin: 0 auto;
-}
-
-input {
-    width: 50%;
-    justify-content: center;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-
+    width: 70%;
     /* Rounded input styling */
     border-radius: 25px;
     border: 1px solid lightgrey;
     padding: 20px; 
     width: 70%;
-    height: 1px;   
+    height: 1px;  
 }
 
-img {
-    justify-content: center;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-}
-
-#btnsdiv {
-    /* /* width: 100%;
-    display: inline-block;
-    justify-content: center;
-    position: relative; */
-    margin: 0 auto; 
-
+/* buttons styling */
+.buttonflex {
     display: flex;
     justify-content: center;
-    padding: 5px;
+}
+
+.buttongroup {
+    padding-top: 2%;
 
 }
 
-button {
-   padding: 7px;
-   width: 18%;
+/* footer styling */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
 }
 
-.btn {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 2%;
+.footleft {
+
 }
 
-a {
-    color: grey;
+.footright {
+
 }
 
-a:link {
-    text-decoration: none;
-}
-  
-a:visited {
-    text-decoration: none;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    height: 100%;
-    
-}
-
-html, body {
-    height: 100%;
-    overflow: hidden;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 96vh;
 }
